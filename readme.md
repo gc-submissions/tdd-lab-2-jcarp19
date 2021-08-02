@@ -1,14 +1,14 @@
 # TDD Lab 2
 
 ## Setup
-Run > `npm install`
+Run > `npm install` // yep
 
 ### To Run Tests (in development)
-Run > `npm run test:dev`
+Run > `npm run test:dev` // yep
 
 ### To View Site in Browser (in development)
-- Run > `npm run build:dev`
-- Live Serve `build/index.html`
+- Run > `npm run build:dev` // yep
+- Live Serve `build/index.html` // yep
 
 ## Organization
 The website code is in the `src` folder.
