@@ -1,5 +1,6 @@
 const formatCurrency =(amount) => {
-    return amount >= 0 ? "$" + Number(Math.ceil(amount * 100).toFixed(2)) / 100 : "-$" + Number(Math.ceil(amount * 100).toFixed(2).substring(1)) / 100;
+    // return amount >= 0 ? "$" + Number(Math.ceil(amount * 100).toFixed(2)) / 100 : "-$" + Number(Math.ceil(amount * 100).toFixed(2).substring(1)) / 100;
+    return amount >= 0 ? "$" + amount.toFixed(2) : "-$" + amount.toFixed(2).substring(1);
 };
 
 const getCoins = (cents) => {
